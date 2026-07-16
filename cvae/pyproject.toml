@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vsmc-domain-cvae"
+version = "0.2.0"
+description = "Domain-adversarial conditional VAE integration for VSMC proteomics"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.10",
+  "torch>=2.0",
+]
+
+[project.scripts]
+vsmc-domain-cvae = "vsmc_domain_cvae.cli:main"
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vsmc_domain_cvae*"]
