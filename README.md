@@ -2,7 +2,7 @@
 
 Authors: Elena Kratz, Lars Maegdefessel, and Matthias Mann.
 
-Preprint:
+Preprint: https://www.biorxiv.org/content/10.64898/2026.07.17.738909v1
 
 This repository contains the code for the analysis performed in the preprint article.
 
